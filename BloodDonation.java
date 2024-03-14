@@ -1,3 +1,8 @@
+//write a java program to check if the uasr is able to donate bllod or not
+//note- user must be 20+ and must not consume cigarette or alcohol in 24 hours before donationg blood and weight 
+//must be more than 50 kg
+
+
 import java.util.Scanner;
 class BloodDonation
 {
@@ -12,7 +17,7 @@ class BloodDonation
 			String consume = sc.next().toLowerCase();
 			if(consume.equals("no"))
 			{
-				System.out.print("Enter your weight:  ");
+				System.out.print("Enter your weight:  "+"kg");
 				double weight= sc.nextDouble();
 				if (weight>=50) 
 				{
