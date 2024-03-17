@@ -30,16 +30,11 @@ class DrivingLicence
 			}
 
 		}
-		else if(age<18)
+		else 
 		{
 			System.out.println("Sorry.........");
 			System.out.print("You are not eligible for Driving Licence test because your age is incompelete try after "+(18-age)+" years.");
 		}	
-
-	    else
-		{
-			System.out.print("Invalid");
-		}
 	}
 }
 

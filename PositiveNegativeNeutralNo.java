@@ -23,13 +23,9 @@ class PositiveNegativeNeutralNo
  		{
  			System.out.print("The number " + num + " is NEGATIVE");	
  		}
- 		else if(num==0)
+ 		else 
  		{
  			System.out.print("The nuber " + num + " is NEUTRAL");
  		}	
- 		else
- 		{
- 			System.out.print("invalid");
- 		}
  	}
 }	 
