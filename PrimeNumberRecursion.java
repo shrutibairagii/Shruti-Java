@@ -17,8 +17,10 @@ class PrimeNumberRecursion
 	public static void prime()
 	{
 		
-		if (i==num) 
+		if (i==num)
+		{ 
 		return;
+		}
 
 		if (num%i==0) 
 		{

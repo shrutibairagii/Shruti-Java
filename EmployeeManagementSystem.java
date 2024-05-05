@@ -116,7 +116,7 @@ class EmployeeManagementSystem
 		System.out.print("Enter Updated Name: ");
 		ename = sc.nextLine();
 		System.out.println("Name is Updated");
-		viewEmployee(1);
+		viewEmployee(1)
 		
 	}
 	public static void updateRole()

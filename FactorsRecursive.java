@@ -12,19 +12,20 @@ class FactorsRecursive
 		int num=sc.nextInt();
 		factors();	
 	}
-	public static void factors()
-	{
-		if (num%i==0) 
-		{
-			System.out.print(i+" ");	
-		}
-		i++;
+	// public static void factors()
+	// {
+	// 	if (num%i==0) 
+	// 	{
+	// 		System.out.print(i+" ");	
+	// 	}
+	// 	i++;
 
-	 	if (num<=fact) 
-	 	{
-	 		return;
-	 	}
-		factors();
+	//  	if (num<=fact) 
+	//  	{
+	//  		return;
+	//  	}
+	// 	factors();
 
-	 }
+	//  }
+	
 }

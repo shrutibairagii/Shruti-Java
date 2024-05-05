@@ -1,3 +1,5 @@
+//write a program to print 1 to 10 number
+
 class MethodRecurssion
 {
 	static int number=1;
