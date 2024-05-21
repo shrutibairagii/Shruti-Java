@@ -30,28 +30,28 @@ class ProgramingLanguage
 }
 class Java extends ProgramingLanguage
 {
-	String[]features;
+	// String[]features;
 	boolean platformIndependent;
 
-	Java(String[]features, boolean platformIndependent,String type, String level,int inventedYear, String founderName, double latestVersion,String extension)
+	Java( boolean platformIndependent,String type, String level,int inventedYear, String founderName, double latestVersion,String extension)
 	{
 		super(type,level,inventedYear,founderName,latestVersion,extension);
-		this.features=features;
+		// this.features=features;
 		this.platformIndependent=platformIndependent;
 	}
 	public void displayJava()
 	{
 		System.out.println("*****JAVA*****");
 		System.out.println("Is it platform independent: "+this.platformIndependent);
-		System.out.println("Features of Java: "+Arrays.toString(this.features));
+		// System.out.println("Features of Java: "+ Arrays.toString(this.features));
 	}
 }
 class SingleLevelInheEx1
 {
 	public static void main(String[] args) 
 	{
-	String[]features={"1.MultiThreaded","2.Secure and Robust","3.Portable","4.Dynamic"};
-	Java obj =new Java(features,true,"Object Oriented","High Level",1991,"James Gosling",1.22,".java");
+	// String[]features={"1.MultiThreaded","2.Secure and Robust","3.Portable","4.Dynamic"};
+	Java obj =new Java(true,"Object Oriented","High Level",1991,"James Gosling",1.22,".java");
 	obj.displayPrograminLanguage();
 	obj.displayJava();
 	}

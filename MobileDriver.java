@@ -29,7 +29,7 @@ class MobileDriver
 {
 	public static void main(String[] args) 
 	{
-		Mobile obj1 = new Mobile("Samsung","S23",12,128,120000);
+		Mobile obj1 = new Mobile("Samsung" , "S23",12,128,120000);
 		obj1.displayMobile();	
 	}
 } 

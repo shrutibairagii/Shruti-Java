@@ -18,11 +18,11 @@ class Movie
 	public void displayMovie()
 	{
 		System.out.println("*****MOVIE DETAILS*****");
-		System.out.println("Type of Movie: "+type);
-		System.out.println("Relesed Date of Movie: "+relesedDate);
-		System.out.println("Hero: "+hero);
-		System.out.println("Heroin: "+heroin);
-		System.out.println("Movie Director: "+director);
+		System.out.println("Type of Movie: "+this.type);
+		System.out.println("Relesed Date of Movie: "+this.relesedDate);
+		System.out.println("Hero: "+this.hero);
+		System.out.println("Heroin: "+this.heroin);
+		System.out.println("Movie Director: "+this.director);
 	}
 
 }
@@ -39,8 +39,8 @@ class MsDhoniTheUntoldStroy extends Movie
 	public void displayMsDhoniTheUntoldStory()
 	{
 		System.out.println("*****MS Dhoni: The Untold Story*****");
-		System.out.println("Movie Name: "+name);
-		System.out.println("Super Hit or Not: "+superHit);
+		System.out.println("Movie Name: "+this.name);
+		System.out.println("Super Hit or Not: "+this.superHit);
 	}
 }
 class SingleLevelInheEx2
