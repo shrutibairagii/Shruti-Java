@@ -21,7 +21,7 @@ class MergeTwoArray
 		}
 		System.out.println("this is second array: ");
 		int[]arr2=new int[size2];
-		for (int i=0;i<size1 ;i++ ) 
+		for (int i=0;i<size2 ;i++ ) 
 		{
 			arr2[i]=sc.nextInt();	
 		}

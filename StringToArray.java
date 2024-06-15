@@ -5,20 +5,35 @@ class StringToArray
 	{
 		Scanner sc= new Scanner(System.in);
 		System.out.print("Enter String: ");
-		String sen=sc.nextLine();
+		String name=sc.next();
 
 
-		String word=" ";
-		for (int i=0;i<sen.length();i++ ) 
+		// String word=" ";
+		// for (int i=0;i<sen.length();i++ ) 
+		// {
+		// 	char ch = sen.charAt(i);
+		// 	if (ch==' ') 
+		// 	{
+		// 		System.out.println(i);
+		// 		break;			
+		// 	}		
+		// 	word +=ch;
+		// }	
+		// System.out.println(word);
+		char[]arr=stringToCharArray(name);
+		System.out.println(Arrays.toString(arr));
+
+		// char[]arr1=name.toCharArray();
+		// System.out.println(Arrays.toString(arr1));
+
+	}
+	public static char[]stringToCharArray(String name)
+	{
+		char[]arr = new char[name.length()];
+		for (int i=0;i<name.length() ;i++ ) 
 		{
-			char ch = sen.charAt(i);
-			if (ch==' ') 
-			{
-				System.out.println(i);
-				break;			
-			}		
-			word +=ch;
-		}	
-		System.out.println(word);
+			arr[i]=(name.charAt(i));	
+		}
+		return arr;
 	}
 }

@@ -36,7 +36,7 @@ class PalindromeArray
 		}
 		else 
 		{
-			System.out.pr intln("Not palindrome");
+			System.out.println("Not palindrome");
 		}
 	}
 }
