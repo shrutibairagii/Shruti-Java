@@ -53,7 +53,7 @@ class SentenceToWordArrayEx
 						//update the index for next word
 						i=i+1;
 						//increase the count after getting a word
-						cnt++;
+						
 						break;			
 					}	
 					word +=ch;	

@@ -6,20 +6,6 @@ class StringToArray
 		Scanner sc= new Scanner(System.in);
 		System.out.print("Enter String: ");
 		String name=sc.next();
-
-
-		// String word=" ";
-		// for (int i=0;i<sen.length();i++ ) 
-		// {
-		// 	char ch = sen.charAt(i);
-		// 	if (ch==' ') 
-		// 	{
-		// 		System.out.println(i);
-		// 		break;			
-		// 	}		
-		// 	word +=ch;
-		// }	
-		// System.out.println(word);
 		char[]arr=stringToCharArray(name);
 		System.out.println(Arrays.toString(arr));
 
