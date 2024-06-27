@@ -1,0 +1,43 @@
+what is css
+-css stands for cascading style sheet
+-css is used to aline and design the web page
+-css is used to make our web page responsive
+
+History of css
+-css was introduce in 1994
+-it was launch in 1996
+-the first version of css was css1
+-the standard and current version is css3
+
+27
+Selectors
+-selectors are used to target html element.
+
+Types of selectors-
+-threr are five types of selector
+1]simple selector
+2]combinator selector
+3]pseudo class selector
+4]pseudo element selector
+5]attribute selector
+
+1]Simple Selector:
+there three simple selector in css
+ 1)id selector
+ 2)class selector
+ 3)Tagname selector
+
+1)id selector
+-id selector is represented by #symbol
+-id should be unique element.
+-if i want to add unique css to a particular element in that case we will use id selector
+
+2)class selector
+-is represented by . symbol
+-class name can be duplicated 
+-if we want to apply same type of css in multiple elements in that case we will use a class selector
+
+3)tagname selector
+-we can target element directly using the tag name of the element
+-if we want to add same css to all the element of the same name
+
